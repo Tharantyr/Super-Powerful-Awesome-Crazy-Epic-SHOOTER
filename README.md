@@ -12,6 +12,8 @@ Version 1.1 changelog:
 - Added screen shake when taking damage/dying
 - Added Quit Game options for MainMenu and PauseMenu
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 Warning: high difficulty
 
 Controls:
