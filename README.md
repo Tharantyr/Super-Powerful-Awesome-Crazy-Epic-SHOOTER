@@ -1,5 +1,7 @@
 # Super Powerful Awesome Crazy Epic SHOOTER
 
+CLICK HERE FOR A GAMEPLAY VIDEO: https://www.youtube.com/watch?v=QSmvWUzmTac
+
 Version 1.1 changelog:
 - Refactored code - easier to read and significantly cleaner
 - Fixed more bugs - there should be no major bugs in this version
