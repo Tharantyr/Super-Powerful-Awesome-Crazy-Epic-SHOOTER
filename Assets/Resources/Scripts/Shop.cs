@@ -25,6 +25,7 @@ public class Shop : MonoBehaviour
     private IEnumerator MoveToCenter(Vector2 startPosition) // Transition to shop and move player to center and lock him in place
     {
         GameSystem.instance.player.GetComponent<Renderer>().sortingOrder = 4;
+        GameSystem.instance.player.transform.GetChild(0).GetComponent<Renderer>().sortingOrder = 5;
         Rigidbody2D playerBody = GameSystem.instance.player.GetComponent<Rigidbody2D>();
         Transform background = GameObject.Find("Background").transform;
         float startDistance = Vector2.Distance(playerBody.transform.position, new Vector2(0, -1.5f));
@@ -76,6 +77,7 @@ public class Shop : MonoBehaviour
 
         GameSystem.instance.gameState = GameSystem.GameState.WaveStart;
         GameSystem.instance.player.GetComponent<Renderer>().sortingOrder = 1;
+        GameSystem.instance.player.transform.GetChild(0).GetComponent<Renderer>().sortingOrder = 2;
         gameObject.SetActive(false);
     }
 }
