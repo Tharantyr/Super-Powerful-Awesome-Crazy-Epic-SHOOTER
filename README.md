@@ -1,6 +1,18 @@
 # Super Powerful Awesome Crazy Epic SHOOTER
 
-Warning: high difficulty, probably a little unbalanced because of the short window of time to complete it
+Version 1.1 changelog:
+- Refactored code - easier to read and significantly cleaner
+- Fixed more bugs - there should be no major bugs in this version
+- Significantly improved audio - added an audio mixer with different channels and compressors (no more overly loud explosions)
+- Added more colorful explosions
+- Fixed Laser Enemy's AI
+- Improved Laser Enemy's laser beam visuals, looks pretty cool now
+- Added some more sound effects
+- Added parallax scrolling for background
+- Added screen shake when taking damage/dying
+- Added Quit Game options for MainMenu and PauseMenu
+
+Warning: high difficulty
 
 Controls:
 - WASD to move the ship
