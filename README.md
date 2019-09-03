@@ -1,5 +1,7 @@
 # Super Powerful Awesome Crazy Epic SHOOTER
 
+Requires Unity 2019.1
+
 CLICK HERE FOR A GAMEPLAY VIDEO: https://www.youtube.com/watch?v=QSmvWUzmTac
 
 Version 1.1 changelog:
